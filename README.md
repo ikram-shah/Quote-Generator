@@ -24,7 +24,7 @@ $ pip install pillow
 
 ### Configure Google Sheets & Drive API
 
-1. Go to [Google Developers Console] 
+1. Go to [Google Developers Console](https://www.console.developers.google.com)
 2. Create a Project
 3. Go to API & Services 
 4. **Enable Google Drive & Google Sheets API**
@@ -53,7 +53,4 @@ And this is how your Generated Image will be
 * Delete the Unused row in the Google Sheets as the Python code runs the loop till the end of row_count
 * You can change the background color and the font (Make sure that the new font is installed in your system)
 * Don't share your client id/email or private key/key_id in Public
-
-
-   [Google Developer Console]: <https://www.console.developers.google.com/>
  
