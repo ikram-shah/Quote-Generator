@@ -70,7 +70,7 @@ def quote_text(text,author,i):
 
     img.save(str(i-1)+'.png', optimize=True)
 
-for i in range(2,worksheet.row_count+1):
+for i in range(2,len(worksheet.get_all_values())+1):
     values_list = worksheet.cell(i,2).value
     valu=worksheet.cell(i,3).value
 

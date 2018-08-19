@@ -17,9 +17,9 @@ Grabs the Quote and Author name from Google Sheets (which is linked with Google 
 ## Replicate Quote Generator
 ### Installation - Required Libraries
 ```sh
-$ pip install gspread
-$ pip install --upgrade oauth2client
-$ pip install pillow
+$ sudo pip install gspread
+$ sudo pip install --upgrade oauth2client
+$ sudo pip install pillow
 ```
 
 ### Configure Google Sheets & Drive API
@@ -40,6 +40,8 @@ $ pip install pillow
 * Worksheet name
 * Worksheet cell value (depends on your google sheets)
 
+And finally run **Quote-Generator.py**
+
 Here is a sample of how your google sheets should look like
 
 ![](https://github.com/ikram-shah/Quote-Generator/blob/master/SampleScreentshot-Google_Forms.png)
@@ -50,7 +52,6 @@ And this is how your Generated Image will be
 
 ### Make a Note
 
-* Delete the Unused row in the Google Sheets as the Python code runs the loop till the end of row_count
 * You can change the background color and the font (Make sure that the new font is installed in your system)
 * Don't share your client id/email or private key/key_id in Public
  
