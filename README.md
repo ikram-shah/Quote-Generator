@@ -17,9 +17,7 @@ Grabs the Quote and Author name from Google Sheets (which is linked with Google 
 ## Replicate Quote Generator
 ### Installation - Required Libraries
 ```sh
-$ sudo pip install gspread
-$ sudo pip install --upgrade oauth2client
-$ sudo pip install pillow
+$ sudo pip install -r requirements.txt
 ```
 
 ### Configure Google Sheets & Drive API
